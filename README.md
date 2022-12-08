@@ -1,29 +1,35 @@
-# braking-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+# breaking-vue
 
-## Recommended IDE Setup
+This is an excercise for api request using vue3 and rickandmortyapi with tailwindcss vue-router and the composition api
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## API Reference
 
-## Project Setup
+#### Get all items
 
-```sh
-npm install
+```http
+  GET http://localhost:5173/
 ```
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
+#### Get item
+
+```http
+  GET http://localhost:5173/${id}
 ```
 
-### Compile and Minify for Production
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of character to fetch |
 
-```sh
-npm run build
-```
+#### or click on the cards of your favorite character
+
+
+
+
+## Authors
+
+- [@dayoneabu](https://github.com/dayOneAbu)
+
